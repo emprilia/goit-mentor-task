@@ -1,0 +1,29 @@
+.header {
+    &__logo {
+        height: 16px;
+    }
+
+    &__nav {
+        height: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__main {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__title {
+        margin: 24px 0 32px;
+
+        @media screen and (min-width: 1200px) {
+            margin: 24px 0 64px 0;
+        }
+    }
+}

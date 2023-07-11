@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 8px;
+    border-top: 1px solid var(--grey);
+
+    @media screen and (min-width: 1200px) {
+        flex-flow: row wrap;
+    }
+
+    &__form {
+        font-family: var(--font-secondary);
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    &__copyright {
+        font-family: var(--font-secondary);
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--black);
+    }
+}
