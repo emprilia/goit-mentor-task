@@ -377,7 +377,7 @@ a {
   justify-content: center;
 }
 .section__header {
-  background-image: linear-gradient(to bottom, rgba(242, 130, 130, 0.79), rgba(252, 227, 138, 0.733)), url("./assets/backgrounds/heroBg.jpg");
+  background-image: linear-gradient(to bottom, rgba(242, 130, 130, 0.79), rgba(252, 227, 138, 0.733)), url("../backgrounds/heroBg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
